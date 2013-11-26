@@ -6,7 +6,7 @@
 Background: 
 	Given Calculator is started
 
-Scenario: Add two numbers
+Scenario: Add two numbers 
 	Given I have entered 70 and 50 into the calculator
 	And I have selected the add operation in the calculator
 	When I calculate

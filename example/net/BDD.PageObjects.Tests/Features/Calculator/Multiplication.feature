@@ -4,7 +4,7 @@
 	I want to be told the multiplication of two numbers
 	
 Background: 
-	Given Calculator is started
+	Given Calculator is started 
 	
 Scenario: Multiplication of two numbers
 	Given I have entered 5 and 2 into the calculator

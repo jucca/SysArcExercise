@@ -4,9 +4,9 @@
 	I want to be told the division of two numbers
 	
 Background: 
-	Given Calculator is started
-	
-Scenario: Division of two numbers
+	Given Calculator is started 
+	 
+Scenario: Division of two numbers 
 	Given I have entered 10 and 2 into the calculator
 	And I have selected the division operation in the calculator
 	When I calculate

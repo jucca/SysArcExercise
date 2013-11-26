@@ -5,7 +5,7 @@
 
 Background: 
 	Given Calculator is started
-
+	 
 Scenario: Reduce two numbers
 	Given I have entered 70 and 50 into the calculator
 	And I have selected the reduce operation in the calculator 
