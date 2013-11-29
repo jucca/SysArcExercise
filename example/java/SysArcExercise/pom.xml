@@ -9,7 +9,7 @@
 
     <properties>
         <spring.version>3.2.0.RELEASE</spring.version>
-        <functional>**/HomepageFunctionalityTest.java</functional>
+        <functional>**/CalculatorFunctionality.java</functional>
     </properties>
 
     <dependencies>
@@ -93,6 +93,11 @@
             <artifactId>jbehave-junit-runner</artifactId>
             <version>1.0.1</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jbehave</groupId>
+            <artifactId>jbehave-spring</artifactId>
+            <version>3.8</version>
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
